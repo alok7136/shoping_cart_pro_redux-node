@@ -1,0 +1,22 @@
+{
+  "name": "fullstactpro",
+  "version": "1.0.0",
+  "description": "react and node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seederScript.js"
+  },
+  "author": "alok chaurasia",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.11",
+    "nodemon": "^2.0.15"
+  }
+}
