@@ -13,12 +13,13 @@
   "author": "alok chaurasia",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongoose": "^6.3.0"
-  },
-  "devDependencies": {
-    "concurrently": "^7.1.0",
-    "nodemon": "^2.0.15"
+    "mongoose": "^6.2.11",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.217.0",
+    "uuid": "^8.3.2"
   }
 }
